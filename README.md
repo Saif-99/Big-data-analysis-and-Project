@@ -23,17 +23,6 @@ pip install pandas numpy matplotlib scikit-learn
 
 The dataset file (flat-ui__data-<date>.csv) should be placed in the sample_data/ folder.
 
-The file must include columns such as:
-
-Year
-
-Country
-
-Total (total emissions)
-
-Per Capita
-
-Solid Fuel, Liquid Fuel, Gas Fuel, Cement, Gas Flaring
 
 4. Running the Notebook
 
@@ -47,32 +36,16 @@ Methodology
 
 The project is divided into three main parts:
 
-Data Preparation & Filtering
-
-Filter CO₂ emissions data for the years 2000–2020.
-
-Export a clean dataset (test1.csv).
-
-Exploratory Data Analysis (EDA)
-
-Group countries into Developed (Canada, USA) and Developing (Brazil, Colombia).
-
-Compare Total, Per Capita, Gas Fuel, and Solid Fuel emissions.
-
-Generate visualizations of emission trends.
-
+Loading the data 
+Data Cleaning & Visualization
 Model Development & Forecasting
 
 Models used:
-
 Linear Regression
-
 Ridge Regression
-
 Gradient Boosting Regressor
 
 Evaluation metrics: R² Score and RMSE.
-
 Forecast emissions for 2021–2040 for each country.
 
 Results
